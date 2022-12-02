@@ -1,0 +1,11 @@
+
+(define-struct movie [title producer year])
+;; a movie is (make-movie String String Number)
+(define-struct person [name hair eyes phone])
+;; a person is (make-person String String String Sting)
+(define-struct pet [name number])
+;; a pet is (make-pet String Number)
+(define-struct CD [artist title price])
+;; a CD is (make-CD String String Number)
+(define-struct sweater [material size producer])
+;; a sweater is (make-sweater String String String)
